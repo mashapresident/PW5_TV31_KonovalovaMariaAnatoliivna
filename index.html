@@ -10,20 +10,20 @@
   <div class="container">
     <h1>Калькулятор Надійності Електропостачання</h1>
     <form id="calc-form">
-      <label for="system-type">Тип системи:</label>
-      <select id="system-type" required>
-        <option value="single">Одноколова</option>
-        <option value="double">Двоколова</option>
-      </select>
-
       <label for="failure-rate">Частота відмов (ф):</label>
-      <input type="number" id="failure-rate" step="0.01" required>
+      <input type="number" id="failure-rate" step="0.001" required>
 
       <label for="repair-time">Середній час відновлення (t):</label>
       <input type="number" id="repair-time" step="0.1" required>
 
       <label for="planned-repair-time">Тривалість планового ремонту (tᵣ):</label>
       <input type="number" id="planned-repair-time" step="0.1">
+
+      <label for="system-type">Тип системи:</label>
+      <select id="system-type" required>
+        <option value="single">Одноколова</option>
+        <option value="double">Двоколова</option>
+      </select>
 
       <button type="submit" id="calculate-btn">Розрахувати</button>
     </form>
