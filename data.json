@@ -1,0 +1,10 @@
+{
+    "failureData": [
+      { "element": "ПЛ-110 КВ", "failureRate": 0.007, "repairTime": 10 },
+      { "element": "ПЛ-35 КВ", "failureRate": 0.02, "repairTime": 8 },
+      { "element": "Трансформатор 110/10 КВ", "failureRate": 0.015, "repairTime": 100 },
+      { "element": "Елегазовий вимикач 110 КВ", "failureRate": 0.01, "repairTime": 30 },
+      { "element": "Секційний вимикач 10 КВ", "failureRate": 0.02, "repairTime": 15 }
+    ]
+  }
+  
