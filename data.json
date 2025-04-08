@@ -1,10 +1,11 @@
 {
     "failureData": [
-      { "element": "ПЛ-110 КВ", "failureRate": 0.007, "repairTime": 10 },
-      { "element": "ПЛ-35 КВ", "failureRate": 0.02, "repairTime": 8 },
+      { "element": "ПЛ-110 КВ", "failureRate": 0.07, "repairTime": 10 },
       { "element": "Трансформатор 110/10 КВ", "failureRate": 0.015, "repairTime": 100 },
       { "element": "Елегазовий вимикач 110 КВ", "failureRate": 0.01, "repairTime": 30 },
-      { "element": "Секційний вимикач 10 КВ", "failureRate": 0.02, "repairTime": 15 }
-    ]
+      { "element": "Ввідний вимикач 10 КВ", "failureRate": 0.02, "repairTime": 15 },
+      { "element": "Збірні шини 10 КВ", "failureRate": 0.18, "repairTime": 2 }
+    ],
+    "sectionBreakerFailureRate": 0.02
   }
   
